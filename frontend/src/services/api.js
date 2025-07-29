@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Configuration
-const API_BASE = 'https://d40041d93c25.ngrok-free.app/api'; // Update with your backend API base URL
+const API_BASE = 'https://0f07e28b401c.ngrok-free.app/api'; // Update with your backend API base URL
 const TIMEOUT = 15000; // 15 seconds
 
 // Create axios instance with enhanced configuration
