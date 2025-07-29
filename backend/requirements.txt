@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pydantic-settings
+langchain-google-genai
+chromadb
+sentence-transformers
+pandas

@@ -23,9 +23,9 @@ class EnhancedLLMService:
             try:
                 # Try different model names in order of preference
                 models_to_try = [
-                    "gemini-1.5-flash",    # Latest and fastest
-                    "gemini-1.5-pro",     # Latest pro version
-                    "gemini-pro-latest",  # Fallback
+                    "gemini-2.5-flash",    # Latest and fastest
+                    "gemini-2.5-pro",     # Latest pro version
+                    "gemini-1.5-flash",  # Fallback
                 ]
                 
                 for model_name in models_to_try:
@@ -77,7 +77,7 @@ class EnhancedLLMService:
             return False
     
     def generate_sql(self, question: str, db_uri: str) -> str:
-        """Generate SQL using RAG + Gemini"""
+        """Generate postgreSQL using RAG + Gemini"""
         print(f"🎯 Starting SQL generation for: '{question}'")
         
         try:
